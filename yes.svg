@@ -1,0 +1,31 @@
+<svg viewBox="0 0 250 240" width="363px" height="221px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rainbowGradient" gradientTransform="rotate(45)">
+      <stop offset="0%" stop-color="#6434e9">
+        <animate attributeName="stop-color" values="#6434e9;#2c7ce5;#49cc5c;#f8c421;#fb6640;#f82553" dur="1s"
+          repeatCount="indefinite" />
+      </stop>
+      <stop offset="20%" stop-color="#2c7ce5">
+        <animate attributeName="stop-color" values="#2c7ce5;#49cc5c;#f8c421;#fb6640;#f82553;#6434e9" dur="1s"
+          repeatCount="indefinite" />
+      </stop>
+      <stop offset="40%" stop-color="#49cc5c">
+        <animate attributeName="stop-color" values="#49cc5c;#f8c421;#fb6640;#f82553;#6434e9;#2c7ce5" dur="1s"
+          repeatCount="indefinite" />
+      </stop>
+      <stop offset="60%" stop-color="#f8c421">
+        <animate attributeName="stop-color" values="#f8c421;#fb6640;#f82553;#6434e9;#2c7ce5;#49cc5c" dur="1s"
+          repeatCount="indefinite" />
+      </stop>
+      <stop offset="80%" stop-color="#fb6640">
+        <animate attributeName="stop-color" values="#fb6640;#f82553;#6434e9;#2c7ce5;#49cc5c;#f8c421" dur="1s"
+          repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#f82553">
+        <animate attributeName="stop-color" values="#f82553;#6434e9;#2c7ce5;#49cc5c;#f8c421;#fb6640" dur="1s"
+          repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+  </defs>
+  <text font-size="200px" x="-60" y="185" fill="url(#rainbowGradient)">YES</text>
+</svg>

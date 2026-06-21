@@ -1,0 +1,9 @@
+# Is It Time Yet?
+
+Is it time yet is an app that lets you count down to any date or time. 
+
+Written in HTML, CSS, and JavaScript
+
+Uses an animated SVG element with an option to opt-out for accessibility.
+
+Deployed at https://isittimeyet.wisp.place/

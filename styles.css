@@ -1,0 +1,144 @@
+:root {
+  --dark-color: #073b4c;
+  --stop: #ef476f;
+  --start: #06d6a0;
+  --light-color: #f7ede2;
+  --orange: #f78c6b;
+  --blue: #118ab2;
+}
+
+body {
+  background-color: var(--dark-color);
+  color: var(--light-color)
+}
+
+.a11y-warning {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin: 20px;
+  padding: 0 18px;
+  font-family: sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: var(--stop);
+}
+
+.a11y-checkbox {
+  height: 19px;
+  width: 19px;
+}
+
+h1 {
+  margin: 8px;
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+h2 {
+  font-family: sans-serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.timer-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .timer-container {
+    margin-top: 40px;
+  }
+}
+
+.timer {
+  display: flex;
+  font-size: 6rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .timer {
+    font-size: 12rem;
+  }
+}
+
+.datepicker {
+  font-size: 1rem;
+  padding: 1rem;
+  margin-top: 20px;
+  color: var(--dark-color);
+  background-color: var(--light-color);
+  -webkit-text-fill-color: var(--dark-color);
+}
+
+@media screen and (min-width: 1024px) {
+  .datepicker {
+    font-size: 2rem;
+  }
+}
+
+.datepicker:invalid {
+  border-color: var(--stop);
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+button {
+  font-size: 2rem;
+  padding: 0.7rem;
+  color: var(--light-color);
+}
+
+.start {
+  background-color: var(--start);
+  margin-right: 10px;
+}
+
+.stop {
+  background-color: var(--stop);
+  margin-left: 10px;
+}
+
+.answer {
+  font-size: 12rem;
+}
+
+.no {
+  color: var(--stop);
+}
+
+.yes {
+  color: var(--start);
+}
+
+.hidden {
+  display: none;
+}
+
+.transparent {
+  opacity: 0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.answer-height {
+  min-height: 225px;
+}
